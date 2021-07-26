@@ -30,6 +30,7 @@ a {
   color: #ffffff;
 }
 
+/* loading */
 .spinner {
   display: block;
   border: 4px solid rgba(0,0,0,.4);
@@ -42,6 +43,25 @@ a {
 
 @keyframes spin {
   to{ transform: rotate(360deg);}
+}
+
+.loading {
+  background-color: #0E448D;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.3);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loading span {
+  margin-bottom: .5rem;
 }
 
 .mobileactive {

@@ -49,6 +49,7 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .form h1 {
   background-color: #0E448D;
@@ -77,25 +78,6 @@
   font-weight: bold;
   transition: all 150ms ease-in;
   margin-top: -15px;
-}
-
-.loading {
-  background-color: #0E448D;
-  padding: 3rem;
-  border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0,0,0,.3);
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.loading span {
-  margin-bottom: .5rem;
 }
 
 @media screen and (max-width: 980px){
